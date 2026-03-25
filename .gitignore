@@ -1,2 +1,6 @@
 .cargo/
 .rustup/
+
+# Cargo build output
+target/
+
