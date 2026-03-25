@@ -26,10 +26,16 @@ cargo build
 
 # Build in release mode
 cargo build --release
+
+# Run the release binary directly
+./target/release/hello_world
+
+# Or build and run in release mode in one step
+cargo run --release
 ```
 
 The program prints:
 
 ```
-Hello, world!
+Hello, World!
 ```
